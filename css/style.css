@@ -1,0 +1,60 @@
+/*Paleta de colores
+#4a5759 gris
+#00509d azul
+#b4cded azul claro */
+
+header{
+    background-color:#4a5759 ;
+}
+header img{
+    width: 200px;
+}
+.escapadas,.vlog{
+    text-align: right;
+    font-size: 32px;
+}
+header ul{
+     list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: #b4cded;
+}
+.padre-box{
+    list-style-type: style none;;
+}
+.name{
+    text-align: left;
+    color: #00509d;
+    text-shadow: #4a5759;
+}
+.titulo{
+    text-align: left;
+}
+h2{
+    text-align: left;
+    color: #00509d;
+    text-shadow: #4a5759;  
+}
+.presentacion img{
+    width: 250px;
+    height: 250px;
+}
+.introdos img{
+    width: 250px;
+    height: 250px;
+}
+.introtres img{
+    width: 250px;
+    height: 250px;
+}
+footer{
+    background-color:#4a5759 ;
+}
+footer img{
+    width: 50px;
+    display: inline;
+}
+body{
+    background-color: #b4cded;
+}
