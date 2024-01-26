@@ -9,9 +9,15 @@ header{
 header img{
     width: 200px;
 }
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
 .escapadas,.vlog{
     text-align: right;
     font-size: 32px;
+    text-align: right;
+    color: #b4cded;
+    text-shadow: #00509d;
 }
 header ul{
      list-style: none;
@@ -20,21 +26,42 @@ header a{
     text-decoration: none;
     color: #b4cded;
 }
-.padre-box{
-    list-style-type: style none;;
+body ul{
+    margin:0;
+    padding:0;
 }
-.name{
+.padre-box{
+    list-style-type: style none;
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+.padre-box a:hover{
+    background-color:#00509d ;
+}
+
+.titulo-1{
     text-align: left;
     color: #00509d;
     text-shadow: #4a5759;
 }
-.titulo{
+.video{
+    width: 50%;
+    height: 300px;
     text-align: left;
+}
+.texto-1{
+    text-align: left;
+    font-size: 32px;
 }
 h2{
     text-align: left;
     color: #00509d;
     text-shadow: #4a5759;  
+}
+p{
+    font-size: 20px;
+    text-align: left;
 }
 .presentacion img{
     width: 250px;
@@ -57,4 +84,36 @@ footer img{
 }
 body{
     background-color: #b4cded;
+}
+
+/* foro */
+.formulario{
+    margin-top: 10%;
+}
+.invitacion{
+    text-align: center;
+    margin: 30px 0;
+    color: #00509d;
+    font-size: 20px;
+}
+.mainforo form{
+    background-color: #b4cded;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 12px 0;
+    color: #4a5759;
+}
+
+
+/* mobile */
+
+
+@media screen and (max-width: 500px) {
+    
 }
