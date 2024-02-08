@@ -5,16 +5,17 @@
 /* index */
 header{
     background-color:#4a5759 ;
+    height: 150px;
 }
 header img{
-    width: 200px;
+    width: 150px;
 }
 body{
     font-family: 'Times New Roman', Times, serif;
 }
 .escapadas,.vlog{
     text-align: right;
-    font-size: 32px;
+    font-size: 1rem;
     text-align: right;
     color: #b4cded;
     text-shadow: #00509d;
@@ -35,60 +36,336 @@ body ul{
     display: block;
     padding: 20px 30px;
     text-decoration: none;
+    text-align:end;
+    position: sticky;
 }
 .padre-box a:hover{
     background-color:#00509d ;
 }
-
+.banner-index{
+    background-image: url(../medios/pasaporte.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 150px;
+    align-items: center;
+}
+h1{
+    font-size: 32px;
+    
+}
 .titulo-1{
-    text-align: left;
-    color: #00509d;
+    font-size: 3rem;
+    text-align:center;
+    color: #4a5759;
+    text-shadow: #4a5759;
+}
+.texto-1{
+    text-align: center;
+    font-size: 2rem;
+    color:#4a5759;
     text-shadow: #4a5759;
 }
 .video{
-    width: 50%;
+    width: 70%;
     height: 300px;
-    text-align: left;
 }
-.texto-1{
-    text-align: left;
-    font-size: 32px;
+.mainInicio{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px 0px;
 }
+
 h2{
     text-align: left;
     color: #00509d;
     text-shadow: #4a5759;  
 }
-p{
+.mainInicio p{
     font-size: 20px;
     text-align: left;
+    color:#ffffff;
 }
-.presentacion img{
+.mainInicio h2{
+    text-align: center;
+    color: #b4cded;
+    text-shadow: #00509d;
+}
+.intro_uno{
+    background-color:#4a5759;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.intro_uno img{
+    width: 200px;
+    height: 200px;
+}
+.intro_dos{
+    background-color: #4a5759;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.intro_dos img{
     width: 250px;
     height: 250px;
 }
-.introdos img{
+.intro_tres{
+    background-color: #4a5759;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.intro_tres img{
     width: 250px;
     height: 250px;
 }
-.introtres img{
-    width: 250px;
-    height: 250px;
-}
-footer{
-    background-color:#4a5759 ;
-}
-footer img{
-    width: 50px;
-    display: inline;
-}
+
 body{
     background-color: #b4cded;
 }
 
+
+
+
+
+
+/* proposito */
+.main-proposito{
+    background-image: url(../medios/villaelchocon_neuquen.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:10px 50px ;
+}
+.sectionproposito h1{
+    font-size: 3rem;
+    text-align:center;
+    color: #4a5759;
+    text-shadow: #b4cded;
+}
+
+.contenedor-proposito{
+    display: grid;
+    grid-template-areas: 
+    "parrafo1 imagen1 imagen1"
+    "imagen2  parrafo2 parrafo2"
+    "imagen2  imagen3  parrafo3";
+    grid-template-columns: 30% 40% 20%;
+    grid-template-rows: repeat(3,350);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.contenedor-proposito img{
+    width: 80%;
+    height: 80%;
+}
+.grid-parrafo-1{
+    grid-area: parrafo1;
+    font-size: 30px;
+    color: #4a5759;
+    text-align: start;
+}
+.grid-imag-prop-1{
+    grid-area: imagen1;
+}
+.grid-parrafo-2{
+    grid-area: parrafo2;
+    font-size: 25px;
+    color: #fafafa;
+    text-align: start;
+}
+.grid-imag-prop-2{
+    grid-area: imagen2;
+}
+.grid-parrafo-3{
+    grid-area: parrafo3;
+    font-size: 25px;
+    color: #fafafa;
+    text-align: start;
+}
+.grid-imag-3{
+    grid-area: imagen3;
+}
+
+
+/* recomendaciones */
+.mainrecomendaciones{
+    background-image: url(../medios/atardecer-caba.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+}
+.grid-titulo{
+    font-size: 3rem;
+    text-align:center;
+    color: #4a5759;
+    text-shadow: #4a5759;
+}
+.contenedor-grid h2{
+    text-align: center;
+    color:#fafafa;
+    margin: 15px 0px;
+}
+.contenedor-grid{
+    display: grid;
+    grid-template-areas: 
+    "titulo1 image1 image1"
+    "image2 image2 titulo2"
+    "titulo3 image3 image3";
+    grid-template-columns: 30% 40% 20%;
+    grid-template-rows: 400px repeat(2, 450px);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.contenedor-grid img{
+    width: 80%;
+    height: 80%;
+}
+.grid-titulo-1{
+    grid-area: titulo1;
+}
+.grid-image-1{
+    grid-area: image1;
+}
+.grid-titulo-2{
+    grid-area: titulo2;
+}
+.grid-image-2{
+    grid-area: image2;
+}
+.grid-titulo-3{
+    grid-area: titulo3;
+}
+.grid-image-3{
+    grid-area: image3;
+}
+/* redes */
+.mainredes{
+    background-image: url(../medios/atlantico.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 40px;
+}
+.sociales{
+    font-size: 40px;
+    color: #fafafa;
+    text-align: center;
+}
+.bannerredes{
+    background-color: #4a5759;
+}
+.visual video{
+    width: 40%;
+    height: 400px;
+    margin: 10px 30px;
+}
+.visual img{
+    width: 40%;
+    height: 400px;
+    margin: 10px 30px;
+}
+.red-ins{
+    background-color:#4a5759;
+    margin: 5px 5px;
+}
+.red-faceb{
+    background-color: #4a5759;
+    margin: 5px 5px;
+}
+.red-foroes{
+    background-color: #4a5759;
+    margin: 5px 5px;
+}
+.rs{
+    font-size: 45px;
+    color: #fafafa;
+    text-align: center;
+}
+.bienvenida{
+    font-size: 30px;
+    color: #fafafa;
+    text-align: center;
+}
+.enlaces-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 10px 10px;
+}
+.enlace-redes h2{
+    font-size: 40px;
+    color: #fafafa;
+    text-shadow: #4a5759;
+    text-align: center;
+    text-decoration: none;
+}
+.enlaces-redes p{
+    font-size: 25px;
+    color: #fafafa;
+    text-shadow: #b4cded;
+    text-align:start;
+    padding: 10px 5px;
+}
+.enlace-faceb{
+    text-decoration: none;
+    color: #fafafa;
+    text-shadow: #b4cded;
+}
+.enlace-foroes{
+    text-decoration: none;
+    color: #fafafa;
+    text-shadow: #b4cded;
+}
+.enlaces-redes img{
+    width: 30%;
+    height: 30%;
+    margin: 0px 15px;
+    
+}
+
 /* foro */
+
 .formulario{
     margin-top: 10%;
+}
+.textforo{
+    background-image: url(../medios/valle-encantado-ruta237.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 100px;
+
+}
+.textforo h1{
+    font-size: 45px;
+    color: #4a5759;
+    text-shadow: #4a5759;
+    text-align: center;
+}
+.textforo h2{
+    font-size: 40px;
+    color: #4a5759;
+    text-shadow: #4a5759;
+    text-align: center;
+}
+.textforo p{
+    font-size: 32px;
+    color: #4a5759;
+    text-shadow:#b4cded;
+    text-align: center;
+}
+.textforo div{
+    font-size: 25px;
+    color: #4a5759;
+    text-shadow: #b4cded;
+    text-align: start;
 }
 .invitacion{
     text-align: center;
@@ -96,9 +373,13 @@ body{
     color: #00509d;
     font-size: 20px;
 }
+.mainforo p{
+    color: #fafafa;
+}
+
 .mainforo form{
     background-color: #b4cded;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     border-radius: 20px;
     font-size: 15px;
@@ -110,111 +391,23 @@ body{
     color: #4a5759;
 }
 
-/* porposito */
-.proposito{
-    font-size: 25px;
-    color: #4a5759;
-    background-color: #b4cded;
-    align-items: center;
-}
-.proposito2{
-    font-size: 25px;
-    color: #4a5759;
-    background-color: #b4cded;
-    align-items: center;
-}
-.proposito3{
-    font-size: 25px;
-    color: #4a5759;
-    background-color: #b4cded;
-    align-items: center;
-}
-.sectionproposito img{
-    width: 500px;
-    height: 400px;
-}
-
-/* recomendaciones */
-.gri-titulo, .grid.titulo-1, .grid-titulo-2, .grid-titulo3{
-    text-align: center;
-    color: #4a5759;
-    margin: 15px 0px;
-}
-.contenedor-grid{
-    display: grid;
-    grid-template-areas: 
-    "image1 titulo1  titulo2"
-    "image1 titulo1 image2"
-    "titulo3 image3 image3";
-    grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 150px repeat(2, 200px);
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-}
-.contenedor-grid img{
-    width: 90%;
-    height: 90%;
-}
-.grid-titulo-1{
-    grid-area: titulo1;
-}
-.grid-titulo-2{
-    grid-area: titulo2;
-}
-.grid-titulo-3{
-    grid-area: titulo3;
-}
-/* redes */
-.sociales{
-    font-size: 40px;
-    color: #00509d;
-    text-align: center;
-}
-.rs{
-    font-size: 32px;
-    color: #4a5759;
-}
-.bienvenida{
-    font-size: 25px;
-    color: #4a5759;
-}
-.inst{
-    color: #00509d;
-}
-.faceb{
-    color: #00509d;
-}
-.foroes{
-    color: #00509d;
-    text-underline-position: none;
-}
 
 
+/* footer */
+footer{
+    background-color:#4a5759 ;
+    position: sticky;
+    color: #b4cded;
+    text-shadow:#00509d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: 15px 5px;
+}
+footer img{
+    width: 50px;
+}
 
 /* mobile */
-
-
-@media screen and (max-width: 500px) {
-    header{
-        flex-direction: column-reverse;
-    }
-    nav{
-        width: 100px;
-        margin-top: 2.5px;
-    }
-    ul{
-        margin: 1px 3px;
-    }
-    .contenedor-grid{
-        grid-template-areas: 
-        "titulo1"
-        "image1"
-        "titulo2"
-        "image2"
-        "titulo3"
-        "image3";
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6,150px);
-    }
-}
+/* mediaQ proposito */
+/* mediaQ-recomendaciones */

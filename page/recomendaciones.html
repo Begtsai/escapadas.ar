@@ -8,18 +8,20 @@
 </head>
 <body>
     <header>
-        <div class="encabezado"><img src="../medios/logo.jpg" alt="Logo de escapadas.ar">
-            <p class="escapadas">Escapadas.ar</p>
-            <p class="vlog">Vlog de viajes</p>
-    <nav>
-        <ul>
-            <a href="../index.html">INICIO</a>
-            <a href="./proposito.html">PROPOSITO</a>
-            <a href="./foro.html">FORO</a>
-            <a href="#">RECOMENDACIONES</a>
-            <a href="./redes.html">REDES</a>
-        </ul>
-    </nav>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="../medios/logo.jpg" alt="Escapada.ar" width="30" height="100">
+              </a>
+              <ul class="padre-box">
+                <a href="../index.html" >INICIO</a>
+                <a href="./proposito.html" >PROPOSITO</a>
+                <a href="./recomendaciones.html" >RECOMENDACIONES</a>
+                <a href="./redes.html" >REDES</a>
+                <a href="./foro.html">FORO</a>
+             </ul>
+            </div>
+          </nav>
     </header>
     <main class="mainrecomendaciones">
         <section class="bannerrecomenda">
@@ -36,13 +38,16 @@
         </section>
     </main>
     <footer>
-        <p>¡Conectemonos!</p>
+        <div class="pie">
+            <p>¡Conectemonos!</p>
             <p>¡Vamos a viajar juntos y hacer recuerdos que durarán toda la vida!</p>
-                <a href="./page/foro.html"><img src="../medios/communities.png" alt="Comunidad"></a>
-                <a href="https://www.facebook.com"><img src="../medios/facebook-app-symbol.png" alt="Facebook"></a>
-                <a href="https://www.instagram.com/escapadas.ar?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><img src="../medios/instagram.png" alt="Instagram"></a>
-                <img src="../medios/email.png" alt="email">
-        
+        </div>
+        <div class="pieLogos">
+            <a href="./page/foro.html"><img src="../medios/communities.png" class="logoForo" alt="Comunidad"></a>
+            <a href="https://www.facebook.com"><img src="../medios/facebook-app-symbol.png" class="logoFacebook" alt="Facebook"></a>
+            <a href="https://www.instagram.com/escapadas.ar?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><img src="../medios/instagram.png" class="logoInstagram" alt="Instagram"></a>
+            <img src="../medios/email.png" class="logoEmail" alt="email">
+        </div>
     </footer>
 </body>
 </html>

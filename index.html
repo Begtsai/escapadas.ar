@@ -9,57 +9,65 @@
 </head>
 <body>
     <header>
-        
-        <div class="encabezado"><img src="./medios/logo.jpg" alt="Logo de escapadas.ar">
-            <p class="escapadas">Escapadas.ar</p>
-            <p class="vlog">Vlog de viajes</p>
-            <nav>
-                <ul class="padre-box">
-                   <a href="#" >INICIO</a>
-                   <a href="./page/proposito.html" >EXPERENCIAS</a>
-                   <a href="./page/recomendaciones.html" >RECOMENDACIONES</a>
-                   <a href="./page/redes.html" >REDES</a>
-                   <a href="./page/foro.html">FORO</a>
-                </ul>
-               
-            </nav>
-        </div>
-                   
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./medios/logo.jpg" alt="Escapada.ar" width="30" height="100">
+              </a>
+             <ul class="padre-box">
+                <a href="#" >INICIO</a>
+                <a href="./page/proposito.html" >PROPOSITO</a>
+                <a href="./page/recomendaciones.html" >RECOMENDACIONES</a>
+                <a href="./page/redes.html" >REDES</a>
+                <a href="./page/foro.html">FORO</a>
+             </ul>
+            </div>
+        </nav>                          
     </header>
-    <main>
-        <h1 class="titulo-1">Escapadas.ar</h1>
-        <video controls class="video" src="./medios/escapadas.mp4"></video>
-        <p class="texto-1">Mostrando el mundo desde mi perspectiva</p>
-        <h2 class="titulo-2" >Viajar es más que unas vacaciones</h2>
-            <div class="presentacion">
-                <p>En este vlog, nos sumergiremos en las maravillas de nuestro hermoso planeta, desde los destinos más icónicos hasta aquellos lugares ocultos que aún esperan ser descubiertos. Desde la vibrante energía de las ciudades hasta la serenidad de los paisajes naturales, juntos exploraremos lo mejor que el mundo tiene para ofrecer.</p>
-                <img src="./medios/villagesel.jpeg" alt="Atardecer desde Villa Gesell">
-                    <img src="./medios/lago.espejo.jpeg" alt="Lago espejo">
-                    <img src="./medios/cataratasdeliguazu.jpeg" alt="Cataratas del Iguazú">
-            </div>
-            <div class="introduciondos">
-                <h2 class="titulo-3">Aventura visual</h2>
-                <p>Acompáñame a través de la lente de mi cámara mientras capturamos la belleza de cada lugar, cada experiencia, y cada encuentro.</p> 
-            </div>
-            <div class="introdos">
-                <img src="./medios/saltodoshemanas.jpeg" alt="Salto dos hermanas">
-            </div>
-            <div class="introducciontres">
-                <h2 class="titulo-4">Nacimiento</h2>
-                <p>Escapadas.ar nace de la necesidad de conocer que me brinda el país donde vivo que es Argentina, es tomar la valija e ir a conocer y sumergirme en cada destino al que voy.</p> 
-            </div>  
-            <div class="introtres"><img src="./medios/mercadodemaschwitz.jpeg" alt="Mercado de Maschwitz">
-            </div>
-         </div>
-       
-    </main>
+    <section class="banner-index">
+        <section  >
+            <h1 class="titulo-1">ESCAPADAS.AR</h1>
+            <p class="texto-1">Mostrando el mundo desde mi perspectiva</p>
+            <video controls class="video" src="./medios/escapadas.mp4"></video>
+        </section>  
+        <main class="mainInicio">
+            <section class="intro_uno">
+                <div class="presentacion">
+                    <h2 class="titulo-2" >Viajar es más que unas vacaciones</h2>
+                    <p>En este vlog, nos sumergiremos en las maravillas de nuestra hermosa Argentina.</p>
+                    <img src="./medios/villagesel.jpeg" alt="Atardecer desde Villa Gesell">
+                </div>
+            </section>
+            <section class="intro_dos">
+                <div class="introduciondos">
+                    <h2 class="titulo-3">Aventura visual</h2>
+                    <p>Acompáñame a través de la lente de mi cámara mientras capturamos la belleza de cada lugar, cada experiencia, y cada encuentro.</p> 
+                    <img src="./medios/saltodoshemanas.jpeg" alt="Salto dos hermanas">
+                </div>
+            </section>
+            <section class="intro_tres">
+                <div class="introducciontres">
+                    <h2 class="titulo-4">Nacimiento</h2>
+                    <p>Escapadas.ar nace de la necesidad de conocer que me brinda el país donde vivo que es Argentina, es tomar la valija e ir a conocer y sumergirme en cada destino al que voy.</p> 
+                    <img src="./medios/mercadodemaschwitz.jpeg" alt="Mercado de Maschwitz">
+                </div>  
+             </section>   
+             </div>
+        </main>
+    </section>
+    
     <footer>
-        <p>¡Conectemonos!</p>
+        <div class="pie">
+            <p>¡Conectemonos!</p>
             <p>¡Vamos a viajar juntos y hacer recuerdos que durarán toda la vida!</p>
-                <a href="./page/foro.html"><img src="./medios/communities.png" alt="Comunidad"></a>
-                <a href="https://www.facebook.com"><img src="./medios/facebook-app-symbol.png" alt="Facebook"></a>
-                <a href="https://www.instagram.com/escapadas.ar?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><img src="./medios/instagram.png" alt="Instagram"></a>
-                <img src="./medios/email.png" alt="email">
+        </div>
+        <div class="pieLogos">
+            <a href="./page/foro.html"><img src="./medios/communities.png" class="logoForo" alt="Comunidad"></a>
+            <a href="https://www.facebook.com"><img src="./medios/facebook-app-symbol.png" class="logoFacebook" alt="Facebook"></a>
+            <a href="https://www.instagram.com/escapadas.ar?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><img src="./medios/instagram.png" class="logoInstagram" alt="Instagram"></a>
+            <img src="./medios/email.png" class="logoEmail" alt="email">
+        </div>
+            
         
     </footer>
 </body>
