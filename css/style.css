@@ -1,8 +1,4 @@
-/*Paleta de colores
-#4a5759 gris
-#00509d azul
-#b4cded azul claro */
-/* index */
+
 header{
     background-color:#4a5759 ;
     height: 150px;
@@ -42,6 +38,9 @@ body ul{
 .padre-box a:hover{
     background-color:#00509d ;
 }
+
+
+/* index */ 
 .banner-index{
     background-image: url(../medios/pasaporte.jpeg);
     background-size: cover;
@@ -84,7 +83,7 @@ h2{
 .mainInicio p{
     font-size: 20px;
     text-align: left;
-    color:#ffffff;
+    color:#fafafa;
 }
 .mainInicio h2{
     text-align: center;
@@ -402,7 +401,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: 15px 5px;
+    align-items: center;
 }
 footer img{
     width: 50px;

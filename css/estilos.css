@@ -1,0 +1,33 @@
+/*header*/
+header .barra {
+  background-color: #4a5759;
+  height: 150px;
+}
+header .barra img {
+  width: 150px;
+}
+
+/*footer*/
+footer {
+  background-color: #4a5759;
+  position: sticky;
+  color: #b4cded;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  width: 50px;
+}
+
+/*index*/
+body .banner-index {
+  background-image: url(../medios/pasaporte.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 150px;
+  align-items: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

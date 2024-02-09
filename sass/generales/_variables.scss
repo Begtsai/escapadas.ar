@@ -1,0 +1,14 @@
+$font: 'Times New Roman', Times, serif;
+
+// paleta
+$gris: #4a5759;
+$azul:  #00509d;
+$aqua: #b4cded;
+$perla: #fafafa;
+
+@mixin flex ($direccion, $justify, $align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}

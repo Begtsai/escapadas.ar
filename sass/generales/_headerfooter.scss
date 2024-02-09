@@ -1,0 +1,28 @@
+/*header*/
+header{
+    .barra{
+        background-color: $gris;
+        height: 150px;
+        img{
+            width: 150px;
+        }
+    }
+    
+    
+}
+
+    
+
+    
+
+
+/*footer*/
+footer{
+    background-color:$gris ;
+    position: sticky;
+    color: $aqua;
+    @include flex(row, space-between, center);
+    img{
+        width: 50px;
+    }
+}
